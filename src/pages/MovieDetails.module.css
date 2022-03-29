@@ -1,0 +1,30 @@
+.detailsContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+.col {
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    height: 80%;
+}
+.col p{
+    color: rgba(255, 255, 255, 0.753);
+}
+.col strong{
+    color: #fff;
+}
+.movieImage{
+   border-radius: 15px; 
+}
+
+.movieDetails {
+    font-size: 1.3rem;
+}
+.movieDetails h2{
+    text-align: center;
+}
+

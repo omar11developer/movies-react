@@ -1,0 +1,35 @@
+.movieCard{
+
+    font-size: 1.2rem;
+    list-style: none;
+    text-align: center;
+    background: rgba(1, 66, 92, 0.937);
+    border-radius: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform,  .4s;
+}
+.movieCard a{
+    text-decoration: none;
+    color: #fff;
+}
+.movieCard:hover{
+   transform: scale(1.1);
+   box-shadow: 0px 2px 5px 5px rgba(1,66,92,0.6);
+   opacity: 0.7;
+}
+.movieImage{
+    border-radius: 15px 15px 0px 0px;
+    background-color: azure;
+    width: 230px;
+    height: 345px;
+}
+
+@media (max-width: 560px) {
+    .movieImage{
+        width: 100%;
+        height: auto;
+    }
+}
+
