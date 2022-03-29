@@ -17,6 +17,7 @@ function MovieGrid({search}){
     
     
     useEffect(()=>{
+        
         setIsLoading(true);
         const searchUrl = search 
         ? "/search/movie?query=" + search + "&page=" + page
